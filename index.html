@@ -53,8 +53,14 @@
             border-left: 5px solid rgba(126, 223, 255, 0.8);
             box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25);
         }
-        .warning { color: #ff8888; font-weight: bold; }
-        .punishment { color: #ff8888; font-weight: bold; }
+        .warning, .punishment {
+            color: #ff8888;
+            font-weight: bold;
+            text-shadow:
+                0 0 2px rgba(0, 0, 0, 0.95),
+                0 0 4px rgba(0, 0, 0, 0.85),
+                0 0 6px rgba(0, 0, 0, 0.7);
+        }
         .note { color: #8cff8c; font-weight: bold; }
         .dark-blue-title { color: #4a7ed1; }
         .rule-number { color: #8b1a2a; text-shadow: 0 0 4px rgba(0, 0, 0, 0.8); font-weight: 900; margin-right: 10px; }

@@ -71,6 +71,27 @@
         }
         .dark-blue-title { color: #d18f1a; }
         .rule-number { color: #8b1a2a; text-shadow: 0 0 4px rgba(0, 0, 0, 0.8); font-weight: 900; margin-right: 10px; }
+        .mod-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 15px 0;
+        }
+        .mod-link {
+            background: rgba(30, 30, 60, 0.5);
+            padding: 12px 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(126, 150, 223, 0.5);
+            text-decoration: none;
+            color: #7edfff;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+        .mod-link:hover {
+            background: rgba(50, 50, 100, 0.7);
+            border-color: rgba(126, 223, 255, 0.8);
+            text-shadow: 0 0 8px rgba(126, 223, 255, 0.6);
+        }
     </style>
 </head>
 <body>
@@ -119,6 +140,18 @@
     </div>
 
     <div class="section">
+        <h2>Запрещена политика</h2>
+        <p class="warning">⚠️ ВНИМАНИЕ: На сервере категорически запрещено обсуждение политических тем в любом виде!</p>
+        <ul>
+            <li>Запрещено обсуждение политических партий, лидеров и организаций</li>
+            <li>Запрещена пропаганда политических идей и систем</li>
+            <li>Запрещены высказывания, которые могут спровоцировать политические конфликты</li>
+            <li>Запрещены политические ссылки и материалы в чате</li>
+        </ul>
+        <p class="punishment">Нарушение этого правила приводит к муту от 2 часов до 8 дней или бану от 4 до 15 дней.</p>
+    </div>
+
+    <div class="section">
         <h2>Нарушения в чатах и сторонних ресурсах</h2>
         <p>Спам в Telegram или Discord каналах проекта — ограничение возможности писать сообщения.</p>
         <p class="punishment">Спам или флуд в личные сообщения администрации:<br>
@@ -157,6 +190,31 @@
 
         <h3><span class="rule-number">3.5</span>Агрессивное поведение или мат при проверке</h3>
         <p class="punishment">Наказание: снятие с должности (при наличии доказательств).</p>
+    </div>
+
+    <div class="section">
+        <h2>📦 Рекомендуемые моды</h2>
+        <p>Для полноценного игрового опыта рекомендуется установить следующие моды:</p>
+        
+        <h3>🎤 Voice Chat (Пакет голосового чата)</h3>
+        <p>Моды для различных версий Minecraft:</p>
+        
+        <div class="mod-links">
+            <a href="https://www.dropbox.com/scl/fi/iygaxnmurjil8p7cix2nu/voicechat-fabric-1.21.11-2.6.21.jar?rlkey=b6h9a0t2azgc25750cakzuzgn&st=2kjsrq9b&dl=0" class="mod-link" target="_blank">
+                📥 Voice Chat Fabric 1.21.11 v2.6.21
+            </a>
+            <a href="https://www.dropbox.com/scl/fi/rrci8bbdgtugdlfakgaip/voicechat-forge-1.21.11-2.6.21.jar?rlkey=ju9qphxnlrrak3b412yezelux&st=9ntsfd03&dl=0" class="mod-link" target="_blank">
+                📥 Voice Chat Forge 1.21.11 v2.6.21
+            </a>
+            <a href="https://www.dropbox.com/scl/fi/xma5n2pj6cwpj79kuuue3/voicechat-fabric-1.21.8-2.6.21.jar?rlkey=m1nzpkgjb2ep7eaethfz33wdt&st=anmr9bip&dl=0" class="mod-link" target="_blank">
+                📥 Voice Chat Fabric 1.21.8 v2.6.21
+            </a>
+            <a href="https://www.dropbox.com/scl/fi/gunzen2xw65slq3igj131/voicechat-fabric-1.21.4-2.6.21.jar?rlkey=b7q1ofcza8tj2ygwvizyzb9ho&st=ojepmz77&dl=0" class="mod-link" target="_blank">
+                📥 Voice Chat Fabric 1.21.4 v2.6.21
+            </a>
+        </div>
+        
+        <p style="color: #8cff8c; margin-top: 15px;">💡 <strong>Подсказка:</strong> Выберите версию, соответствующую вашей версии Minecraft и используемому модлоадеру (Fabric или Forge).</p>
     </div>
 
     <p style="text-align:center; margin-top:50px; opacity:0.7;">
